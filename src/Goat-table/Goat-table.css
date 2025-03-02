@@ -1,5 +1,5 @@
 .GoatTableContainer {
-    background: linear-gradient(#242225, #111111);
+    background: linear-gradient(rgba(36, 34, 37, .25), rgb(17, 17, 17));
     overflow: scroll;
     max-height: 300px;
     width: 100%;
