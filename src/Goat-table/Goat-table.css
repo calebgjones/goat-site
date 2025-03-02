@@ -1,0 +1,40 @@
+.GoatTableContainer {
+    background: linear-gradient(#242225, #111111);
+    overflow: scroll;
+    max-height: 300px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.GoatTable{
+    display: inline-block;
+    flex-direction: column;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th {
+    color: white;
+    padding: 5px;
+}
+
+tr {
+    padding: 5px;
+    color: white;
+    text-align: left;
+}
+
+td {
+    padding: 5px;
+}
+
+tr a {
+    color: rgb(173, 173, 173);
+    text-decoration: none;
+    transition: color 0.25s ease-in-out;
+}
+
+tr a:hover {
+    color: gold;
+}

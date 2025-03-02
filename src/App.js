@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import GoatTable from './Goat-table/Goat-table.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <body>
+      <div className="Root">
+        <header className="Header">
+        <h1>Goat Rankings</h1>
+          <a href="https://www.klubj.net"><p>#1 Caleb Jones</p></a>
+        </header>
+      </div>
+
+      <div className="calebContainer">
+        <div className="caleb">
+          <img src={require('./img/Subject.png')} alt="Placeholder" />
+          <p style={{font: '20pt Futura'}}>Goated.</p>
+        </div>
+      </div>
+
+      
+      <div className="Main">
+        <GoatTable />
+      </div>
+
+    </body>
   );
 }
 
