@@ -81,4 +81,8 @@ a:hover {
   .Header h1{
     font-size: 25pt;
   }
+
+  .calebContainer p{
+    visibility: hidden;
+  }
 }
